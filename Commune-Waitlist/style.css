@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.2);
+    margin: 20px auto;
+    width: 90%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.wrapper .main-view__early {
+    border-radius: 25px;
+    background-color: rgba(60, 2, 60);
+    color: whitesmoke;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.4rem;
+}
+
+.main-view__early a {
+    color: whitesmoke;
+}
+
+.wrapper .main-view__heading {
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+.wrapper .main-view__text {
+    font-size: 1.6rem;
+    margin: 1rem auto;
+}
